@@ -12,7 +12,7 @@ http://www.springframework.org/schema/mvc http://www.springframework.org/schema/
 
         <!-- Scans for annotated @Controllers in the classpath -->
         <context:component-scan base-package="com.verraros.*">
-                <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+                <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
         </context:component-scan>
 
         <context:annotation-config />

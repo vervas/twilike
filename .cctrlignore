@@ -1,0 +1,7 @@
+target/classes
+target/maven-archiver
+target/surefire
+target/test-classes
+target/twilike-1.0.0-BUILD-SNAPSHOT
+src/
+pom.xml
